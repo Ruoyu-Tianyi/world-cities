@@ -29,9 +29,11 @@ uv run streamlit run housing-lab/app-housing.py
 Hands-On Machine Learning. Each row represents a 1990 district.
 Source: https://github.com/ageron/handson-ml2/blob/master/datasets/housing/housing.csv
 
-The course download was not supplied. This public copy has the required columns,
-five location types, and house value range 14999 to 500001. Missing values in the
-unused total_bedrooms column are left unchanged; no districts are dropped.
+The user-supplied course housing.csv was verified byte-for-byte identical to this
+file (SHA-256: 8a3727f4cf54ac1a327f69b1d5b4db54c5834ea81c6e4efc0d163300022a685e).
+It has all required columns, five location types, and house value range 14999 to
+500001. Missing values in the unused total_bedrooms column are left unchanged;
+no districts are dropped.
 
 ## Streamlit Community Cloud
 
